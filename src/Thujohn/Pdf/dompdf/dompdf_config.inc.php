@@ -124,7 +124,7 @@ define("TTF2AFM", "/usr/bin/ttf2pt1");
  * @link http://www.ros.co.nz/pdf
  * @link http://www.php.net/image
  */
-define("DOMPDF_PDF_BACKEND", "auto");
+//define("DOMPDF_PDF_BACKEND", "auto");
 
 /**
  * PDFlib license key
