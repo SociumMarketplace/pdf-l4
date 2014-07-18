@@ -22,8 +22,6 @@ class Pdf {
 	}
 
 	public function load($html, $size = 'A4', $orientation = 'portrait'){
-		$this->dompdf = new \DOMPDF();
-		
 		$this->html = $html;
 		$this->size = $size;
 		$this->orientation = $orientation;
