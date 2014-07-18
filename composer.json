@@ -17,7 +17,8 @@
     "autoload": {
         "psr-0": {
             "Thujohn\\Pdf": "src/"
-        }
+        },
+        "classmap": ["src/Thujohn/Pdf/dompdf/include/"]
     },
     "minimum-stability": "dev"
 }
